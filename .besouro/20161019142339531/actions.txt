@@ -289,3 +289,6 @@ RefactoringAction 1476879100162 TestPlanetExplorer.java ADD void test_ FIELD
 RefactoringAction 1476879103172 TestPlanetExplorer.java RENAME test_=>void test_givenExample1 FIELD
 RefactoringAction 1476879104679 TestPlanetExplorer.java RENAME test_givenExample1=>void test_givenExample1() METHOD
 EditAction 1476879142222 TestPlanetExplorer.java 1898 8 24 8
+UnitTestCaseAction 1476879144585 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879144586 TestPlanetExplorer.java FAIL
+EditAction 1476879152265 TestPlanetExplorer.java 1900 8 24 8
