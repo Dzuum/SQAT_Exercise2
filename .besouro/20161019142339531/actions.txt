@@ -184,3 +184,6 @@ RefactoringAction 1476877837513 TestPlanetExplorer.java RENAME test_executeComma
 EditAction 1476877838363 TestPlanetExplorer.java 925 4 12 4
 EditAction 1476877842346 TestPlanetExplorer.java 925 4 12 4
 EditAction 1476877852022 TestPlanetExplorer.java 925 4 12 4
+UnitTestCaseAction 1476877855676 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877855677 TestPlanetExplorer.java FAIL
+EditAction 1476877879112 PlanetExplorer.java 2192 3 8 0

@@ -55,6 +55,8 @@ public class PlanetExplorer {
 			}
 		}
 		
+		position.wrapPositive(gridWidth - 1, gridHeight - 1);
+		
 		return getPositionFormatted();
 	}
 	
