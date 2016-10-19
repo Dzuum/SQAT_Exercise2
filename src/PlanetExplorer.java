@@ -77,6 +77,15 @@ public class PlanetExplorer {
 			}
 		}
 		
+		for (int i = 0; i < foundObstacles.size(); i++) {
+			for (int j = i + 1; j < foundObstacles.size(); j++) {
+				if (foundObstacles.get(i).equals(foundObstacles.get(j)) {
+					foundObstacles.remove(j);
+					j--;
+				}
+			}
+		}
+		
 		String value = getPositionFormatted();
 		for (ExplorerVector2D obstacle : foundObstacles)
 			value += "(" + obstacle.getValuesString() + ")";
