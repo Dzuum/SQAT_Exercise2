@@ -26,9 +26,8 @@ public class PlanetExplorer {
 		gridWidth = x;
 		gridHeight = y;
 		
-		facing = "N";
-		posX = 0;
-		posY = 0;
+		facing = new ExplorerVector2D(0, 1);
+		position = new ExplorerVecto2D(0, 0);
 	}
 	
 	public String executeCommand(String command) {

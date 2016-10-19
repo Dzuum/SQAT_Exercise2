@@ -16,6 +16,10 @@ public class ExplorerVector2D {
 		this.y += other.y;
 	}
 	
+	public void rotateLeft() {
+		
+	}
+	
 	public String getFacingString() {
 		String ret = "Not an identity vector";
 		
