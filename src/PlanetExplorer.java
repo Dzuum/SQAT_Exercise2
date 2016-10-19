@@ -51,4 +51,8 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	private String getPositionFormatted() {
+		return "(" + posX + "," + posY + ")";
+	}
 }
