@@ -297,3 +297,6 @@ UnitTestSessionAction 1476879153807 TestPlanetExplorer.java OK
 RefactoringAction 1476879161297 TestPlanetExplorer.java ADD void test_givenExample2() METHOD
 EditAction 1476879175484 TestPlanetExplorer.java 2019 9 25 8
 EditAction 1476879196604 TestPlanetExplorer.java 2114 9 27 9
+UnitTestCaseAction 1476879200113 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879200114 TestPlanetExplorer.java FAIL
+EditAction 1476879206709 TestPlanetExplorer.java 2119 9 27 9
