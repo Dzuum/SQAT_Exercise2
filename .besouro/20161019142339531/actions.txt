@@ -43,3 +43,4 @@ RefactoringAction 1476876905248 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1476876914269 TestPlanetExplorer.java RENAME test_executeCommand_turn=>void test_executeCommand_turnRight() METHOD
 EditAction 1476876914371 TestPlanetExplorer.java 374 2 3 1
 EditAction 1476876941696 TestPlanetExplorer.java 511 2 6 2
+EditAction 1476876945256 TestPlanetExplorer.java 512 2 6 2

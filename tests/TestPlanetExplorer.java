@@ -17,6 +17,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
 		String ret = explorer.executeCommand("r");
 		
-		assertEquals("(0,0,E", ret);
+		assertEquals("(0,0,E)", ret);
 	}
 }
