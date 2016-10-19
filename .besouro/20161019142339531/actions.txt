@@ -128,3 +128,9 @@ CompilationAction 1476877578685 PlanetExplorer.java
 CompilationAction 1476877578686 PlanetExplorer.java
 RefactoringAction 1476877591861 ExplorerVector2D.java RENAME clampPositive(int, int)=>void wrapPositive(int, int) METHOD
 EditAction 1476877610067 ExplorerVector2D.java 1404 9 15 0
+CompilationAction 1476877610314 PlanetExplorer.java
+CompilationAction 1476877610315 PlanetExplorer.java
+CompilationAction 1476877610317 PlanetExplorer.java
+RefactoringAction 1476877635461 ExplorerVector2D.java ADD String get FIELD
+RefactoringAction 1476877641475 ExplorerVector2D.java RENAME get=>String getValuesString() METHOD
+EditAction 1476877645036 ExplorerVector2D.java 1470 10 16 0

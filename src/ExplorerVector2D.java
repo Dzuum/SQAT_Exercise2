@@ -80,4 +80,8 @@ public class ExplorerVector2D {
 		
 		return ret;
 	}
+	
+	public String getValuesString() {
+		return x + "," + y;
+	}
 }
