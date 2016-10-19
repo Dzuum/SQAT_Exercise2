@@ -44,7 +44,9 @@ public class PlanetExplorer {
 		String[] splitCommands = command.split("");
 		
 		for (String cmd : splitCommands) {
-			
+			if (cmd.equals("f")) {
+				
+			}
 		}
 		
 		return null;
