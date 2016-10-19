@@ -42,6 +42,7 @@ public class PlanetExplorer {
 		 */
 		
 		ExplorerVector2D nextPosition;
+		List<ExplorerVector2D> foundObstacles = new ArrayList<ExplorerVector2D>();
 		for (int i = 0; i < command.length(); i++) {
 			char cmd = command.charAt(i);
 			
@@ -52,6 +53,7 @@ public class PlanetExplorer {
 				
 				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
+				else
 			} else if (cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.negate(direction);
