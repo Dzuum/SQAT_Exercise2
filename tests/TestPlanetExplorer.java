@@ -62,7 +62,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_givenExample2() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,2");
-		
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,2)");
+		String returnValue = explorer.executeCommand("ffrf");
+		assertEquals("(1,1,E)", returnValue);
 	}
 }
