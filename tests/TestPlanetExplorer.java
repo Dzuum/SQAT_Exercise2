@@ -11,4 +11,9 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,1,N)", ret);
 	}
+	
+	@Test
+	public void test_executeCommand_turnRight() {
+		
+	}
 }

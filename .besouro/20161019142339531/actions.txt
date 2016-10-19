@@ -34,3 +34,11 @@ EditAction 1476876798863 PlanetExplorer.java 1698 2 7 0
 RefactoringAction 1476876815241 PlanetExplorer.java ADD String getPositionFormatted() METHOD
 EditAction 1476876826609 PlanetExplorer.java 1788 3 8 0
 EditAction 1476876874497 PlanetExplorer.java 1867 3 9 0
+UnitTestCaseAction 1476876887929 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476876887930 TestPlanetExplorer.java OK
+RefactoringAction 1476876899221 TestPlanetExplorer.java ADD void test_executeCommand_forward FIELD
+RefactoringAction 1476876900730 TestPlanetExplorer.java RENAME test_executeCommand_forward=>void test_execute FIELD
+RefactoringAction 1476876902238 TestPlanetExplorer.java RENAME test_execute=>void test_executeCommand_ FIELD
+RefactoringAction 1476876905248 TestPlanetExplorer.java RENAME test_executeCommand_=>void test_executeCommand_turn FIELD
+RefactoringAction 1476876914269 TestPlanetExplorer.java RENAME test_executeCommand_turn=>void test_executeCommand_turnRight() METHOD
+EditAction 1476876914371 TestPlanetExplorer.java 374 2 3 1

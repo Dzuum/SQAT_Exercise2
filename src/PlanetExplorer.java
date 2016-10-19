@@ -52,7 +52,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		return null;
+		return getPositionFormatted();
 	}
 	
 	private String getPositionFormatted() {
