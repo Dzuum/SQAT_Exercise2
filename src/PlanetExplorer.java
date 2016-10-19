@@ -28,6 +28,8 @@ public class PlanetExplorer {
 
 		position = new ExplorerVector2D(0, 0);
 		direction = new ExplorerVector2D(0, 1);
+		
+		String[] splitObstacles = obstacles.split("\\),\\(|\\)|\\(");
 	}
 	
 	public String executeCommand(String command) {
