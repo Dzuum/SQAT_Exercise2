@@ -41,7 +41,11 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String[] splitCommand = command.split("");
+		String[] splitCommands = command.split("");
+		
+		for (String cmd : splitCommands) {
+			
+		}
 		
 		return null;
 	}
