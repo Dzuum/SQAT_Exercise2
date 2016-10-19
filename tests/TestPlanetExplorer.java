@@ -59,4 +59,10 @@ public class TestPlanetExplorer {
 		String returnValue = explorer.executeCommand("ffrf");
 		assertEquals("(1,2,E)", returnValue);
 	}
+	
+	@Test
+	public void test_givenExample2() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,2");
+		
+	}
 }
