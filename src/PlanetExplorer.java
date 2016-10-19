@@ -6,6 +6,7 @@
 public class PlanetExplorer {
 	int gridWidth;
 	int gridHeight;
+	List<String> obstacles = new ArrayList<String>();
 	
 	public PlanetExplorer(int x, int y, String obstacles) {
 		/*	x and y represent the size of the grid.
