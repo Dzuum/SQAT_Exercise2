@@ -314,3 +314,10 @@ CompilationAction 1476879290981 PlanetExplorer.java
 CompilationAction 1476879299346 PlanetExplorer.java
 CompilationAction 1476879299556 TestPlanetExplorer.java
 EditAction 1476879304352 PlanetExplorer.java 3227 3 15 0
+CompilationAction 1476879345946 TestPlanetExplorer.java
+CompilationAction 1476879346110 TestPlanetExplorer.java
+CompilationAction 1476879353007 TestPlanetExplorer.java
+UnitTestCaseAction 1476879356730 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879356731 TestPlanetExplorer.java OK
+RefactoringAction 1476879376239 TestPlanetExplorer.java ADD void test_createExplorer_invalidObstacleFormat() METHOD
+EditAction 1476879396510 TestPlanetExplorer.java 2803 11 29 9
