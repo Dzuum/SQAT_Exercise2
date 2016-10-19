@@ -45,7 +45,7 @@ public class PlanetExplorer {
 		
 		for (String cmd : splitCommands) {
 			if (cmd.equals("f")) {
-				
+				posY++;
 			}
 		}
 		
