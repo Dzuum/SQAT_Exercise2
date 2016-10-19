@@ -23,6 +23,9 @@ public class PlanetExplorer {
 			 
 		 */
 		
+		if (x < 0 || y < 0)
+			throw new PlanetExplorerException();
+		
 		gridWidth = x;
 		gridHeight = y;
 

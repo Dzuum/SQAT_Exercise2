@@ -67,7 +67,7 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,E)(0,2)", returnValue);
 	}
 	
-	@Test
+	@Test(expected=PlanetExplorerException.class)
 	public void test_createExplorer_invalidSize() {
 		PlanetExplorer explorer = new PlanetExplorer(-1, 3, "");
 	}
