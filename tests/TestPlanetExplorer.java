@@ -8,6 +8,6 @@ public class TestPlanetExplorer {
 	public void test_executeCommand_forwardOnce() {
 		fail("Not yet implemented");
 		
-		
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
 	}
 }
