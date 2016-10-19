@@ -33,6 +33,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
 		String ret = explorer.executeCommand("b");
 		
-		assertEquals("(0,3,N)", ret);
+		assertEquals("(0,2,N)", ret);
 	}
 }
