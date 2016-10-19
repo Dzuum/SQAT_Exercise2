@@ -40,9 +40,16 @@ public class PlanetExplorer {
 				splitObstacles[i].equals("(") &&
 				splitObstacles[i + 2].equals(",") &&
 				splitObstacles[i + 4].equals(")")) {
-				
+				try {
+					int obsX = Integer.parseInt(splitObstacles[i + 1]);
+					int obsY = Integer.parseInt(splitObstacles[i + 3]);
+					gridObstacles.add("(" + obsX + "," + obsY + ")");
+				} catch (NumberFormatException nfe) {
+					throw new PlanetExplorerException();
+				}
+			} else {
+				throw new PlanetExplorerException(;)
 			}
-			gridObstacles.add("(" + obstacle + ")");
 		}
 		
 		
