@@ -19,7 +19,15 @@ public class ExplorerVector2D {
 	public String getFacingString() {
 		String ret = "Not an identity vector";
 		
-		
+		if (x == 1 && y == 0) {
+			ret = "E";
+		} else if (x == -1 && y == 0) {
+			ret = "W";
+		} else if (y == 1 && x == 0) {
+			ret = "N";
+		} else if (y == -1 && x == 0) {
+			ret = "S";
+		}
 		
 		return ret;
 	}
