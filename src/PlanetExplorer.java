@@ -54,6 +54,9 @@ public class PlanetExplorer {
 			} else if (cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.negate(direction);
+				
+				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
+					position = new ExplorerVector2D(nextPosition);
 			} else if (cmd == 'l') {
 				direction.rotateLeft();
 			} else if (cmd == 'r') {
