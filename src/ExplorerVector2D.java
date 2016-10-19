@@ -87,7 +87,8 @@ public class ExplorerVector2D {
 		return x + "," + y;
 	}
 	
+	@override
 	public boolean equals(ExplorerVector2D other) {
-		return ((x == other.x && (y == other.y));
+		return ((x == other.x) && (y == other.y));
 	}
 }
