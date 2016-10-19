@@ -72,9 +72,11 @@ public class PlanetExplorer {
 			}
 		}
 		
-		String returnValue = getPositionFormatted();
+		String value = getPositionFormatted();
+		for (ExplorerVector2D obstacle : foundObstacles)
+			value += "(" + obstacle.getValuesString() + ")";
 		
-		return getPositionFormatted();
+		return value;
 	}
 	
 	private String getPositionFormatted() {
