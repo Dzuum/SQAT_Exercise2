@@ -99,3 +99,11 @@ CompilationAction 1476877392196 PlanetExplorer.java
 CompilationAction 1476877392197 PlanetExplorer.java
 CompilationAction 1476877392197 PlanetExplorer.java
 EditAction 1476877430473 ExplorerVector2D.java 846 6 10 0
+CompilationAction 1476877430708 ExplorerVector2D.java
+RefactoringAction 1476877447041 ExplorerVector2D.java ADD void rotateLeft()/2 METHOD
+CompilationAction 1476877449893 ExplorerVector2D.java
+CompilationAction 1476877450047 PlanetExplorer.java
+CompilationAction 1476877450048 PlanetExplorer.java
+CompilationAction 1476877450049 PlanetExplorer.java
+CompilationAction 1476877450049 PlanetExplorer.java
+EditAction 1476877462812 ExplorerVector2D.java 1124 7 11 0
