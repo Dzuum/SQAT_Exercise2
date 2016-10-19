@@ -54,7 +54,12 @@ public class PlanetExplorer {
 			
 			if (cmd == 'f' || cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
-				nextPosition.add(direction);
+				
+				if (cmd == 'f')
+					nextPosition.add(direction);
+				else
+					nextPosition.negate(direction);
+				
 				nextPosition.wrapPositive(gridWidth - 1, gridHeight - 1);
 				
 				if (!gridObstacles.contains("(" + nextPosition.getValuesString() + ")"))
