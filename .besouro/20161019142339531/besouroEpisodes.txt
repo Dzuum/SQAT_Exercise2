@@ -37,3 +37,5 @@
 1476877808862 test-first 3 909 true
 1476877808863 test-first 3 909 true
 1476877808864 test-first 3 909 true
+1476877821786 test-addition 1 7 true
+1476877821787 test-addition 1 7 true

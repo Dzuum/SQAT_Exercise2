@@ -174,3 +174,11 @@ UnitTestSessionAction 1476877808842 TestPlanetExplorer.java OK
 RefactoringAction 1476877813931 TestPlanetExplorer.java ADD void test_executeCommand_turnRight()/2 METHOD
 RefactoringAction 1476877817445 TestPlanetExplorer.java RENAME test_executeCommand_turnRight()/2=>void test_executeCommand_turnLeft() METHOD
 EditAction 1476877818516 TestPlanetExplorer.java 716 3 9 3
+UnitTestCaseAction 1476877821785 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877821786 TestPlanetExplorer.java OK
+RefactoringAction 1476877825963 TestPlanetExplorer.java ADD void test_executeCommand_forwardOnce()/2 METHOD
+RefactoringAction 1476877831987 TestPlanetExplorer.java RENAME test_executeCommand_forwardOnce()/2=>void ba() METHOD
+RefactoringAction 1476877833497 TestPlanetExplorer.java RENAME ba()=>void test_executeCommand_forwardOnce()/2 METHOD
+RefactoringAction 1476877836506 TestPlanetExplorer.java RENAME test_executeCommand_forwardOnce()/2=>void test_executeCommand_bac() METHOD
+RefactoringAction 1476877837513 TestPlanetExplorer.java RENAME test_executeCommand_bac()=>void test_executeCommand_backwardsWrap() METHOD
+EditAction 1476877838363 TestPlanetExplorer.java 925 4 12 4

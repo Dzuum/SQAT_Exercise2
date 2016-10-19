@@ -27,4 +27,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,W)", ret);
 	}
+	
+	@Test
+	public void test_executeCommand_backwardsWrap() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		String ret = explorer.executeCommand("b");
+		
+		assertEquals("(0,1,N)", ret);
+	}
 }
