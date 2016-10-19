@@ -88,6 +88,6 @@ public class ExplorerVector2D {
 	}
 	
 	public boolean equals(ExplorerVector2D other) {
-		
+		return ((x == other.x && (y == other.y;
 	}
 }
