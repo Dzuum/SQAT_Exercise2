@@ -12,4 +12,8 @@ public class ExplorerVector2D {
 		this.x += other.x;
 		this.y += other.y;
 	}
+	
+	public String getFacingString() {
+		
+	}
 }
