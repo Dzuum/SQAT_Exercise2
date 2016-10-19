@@ -54,3 +54,6 @@ RefactoringAction 1476877023442 PlanetExplorer.java REMOVE faci FIELD
 RefactoringAction 1476877097523 ExplorerVector2D.java ADD ExplorerVector2D.java CLASS
 FileOpenedAction 1476877097809 ExplorerVector2D.java 40 0 0 0
 EditAction 1476877100231 ExplorerVector2D.java 41 0 0 0
+RefactoringAction 1476877111820 ExplorerVector2D.java ADD int x FIELD
+RefactoringAction 1476877111820 ExplorerVector2D.java ADD int y FIELD
+EditAction 1476877118052 ExplorerVector2D.java 109 1 0 0
