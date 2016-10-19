@@ -87,7 +87,7 @@ public class ExplorerVector2D {
 		return x + "," + y;
 	}
 	
-	public bool equals(ExplorerVector2D other) {
+	public boolean equals(ExplorerVector2D other) {
 		
 	}
 }

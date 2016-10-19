@@ -258,3 +258,6 @@ UnitTestCaseAction 1476878890935 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878890936 TestPlanetExplorer.java FAIL
 RefactoringAction 1476878908995 ExplorerVector2D.java ADD bool equals() METHOD
 EditAction 1476878913112 ExplorerVector2D.java 1564 10 16 0
+CompilationAction 1476878913352 ExplorerVector2D.java
+CompilationAction 1476878913352 PlanetExplorer.java
+EditAction 1476878918610 ExplorerVector2D.java 1567 10 16 0
