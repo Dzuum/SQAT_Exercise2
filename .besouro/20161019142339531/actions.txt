@@ -48,3 +48,9 @@ UnitTestCaseAction 1476876947907 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476876947908 TestPlanetExplorer.java FAIL
 EditAction 1476876964050 PlanetExplorer.java 1935 3 9 0
 EditAction 1476876984370 PlanetExplorer.java 2045 3 9 0
+RefactoringAction 1476877009893 PlanetExplorer.java RENAME obstacles=>Vector2 List FIELD
+RefactoringAction 1476877011407 PlanetExplorer.java RENAME List=>Vector2 faci FIELD
+RefactoringAction 1476877023442 PlanetExplorer.java REMOVE faci FIELD
+RefactoringAction 1476877097523 ExplorerVector2D.java ADD ExplorerVector2D.java CLASS
+FileOpenedAction 1476877097809 ExplorerVector2D.java 40 0 0 0
+EditAction 1476877100231 ExplorerVector2D.java 41 0 0 0
