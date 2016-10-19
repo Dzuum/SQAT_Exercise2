@@ -278,3 +278,6 @@ RefactoringAction 1476878980000 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1476878986013 TestPlanetExplorer.java RENAME test_executeCommand_wrap=>void test_executeCommand_wrapBackwardsToObstacle() METHOD
 EditAction 1476878993547 TestPlanetExplorer.java 1691 7 21 7
 EditAction 1476878998217 TestPlanetExplorer.java 1691 7 21 7
+UnitTestCaseAction 1476879000317 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879000318 TestPlanetExplorer.java OK
+EditAction 1476879074325 PlanetExplorer.java 3414 3 14 0

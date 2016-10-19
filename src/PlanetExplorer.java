@@ -52,7 +52,7 @@ public class PlanetExplorer {
 		for (int i = 0; i < command.length(); i++) {
 			char cmd = command.charAt(i);
 			
-			if (cmd == 'f') {
+			if (cmd == 'f' || cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.add(direction);
 				nextPosition.wrapPositive(gridWidth - 1, gridHeight - 1);
