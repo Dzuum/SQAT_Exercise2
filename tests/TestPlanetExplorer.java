@@ -39,5 +39,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommand_forwardToObstacle() {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
+		
+		String ret = explorer.executeCommand("f");
 	}
 }
