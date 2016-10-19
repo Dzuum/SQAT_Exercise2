@@ -41,9 +41,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String[] splitCommands = command.split("");
-		
-		for (String cmd : splitCommands) {
+		for (int i = 0; i < command.length(); i++) {
+			String cmd = command.charAt(i);
+			
 			if (cmd.equals("f")) {
 				position.add(direction);
 			} else if (cmd.equalsIgnoreCase("b")) {
@@ -59,6 +59,6 @@ public class PlanetExplorer {
 	}
 	
 	private String getPositionFormatted() {
-		return "(" + posX + "," + posY + "," + facing + ")";
+		return "(" + position.getValuesString() + "," + direction.getFacingString() + ")";
 	}
 }

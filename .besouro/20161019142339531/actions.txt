@@ -138,3 +138,12 @@ CompilationAction 1476877645294 PlanetExplorer.java
 CompilationAction 1476877645295 PlanetExplorer.java
 CompilationAction 1476877645296 PlanetExplorer.java
 EditAction 1476877654490 ExplorerVector2D.java 1405 8 14 0
+CompilationAction 1476877655433 PlanetExplorer.java
+CompilationAction 1476877655433 PlanetExplorer.java
+CompilationAction 1476877655434 PlanetExplorer.java
+CompilationAction 1476877674586 PlanetExplorer.java
+CompilationAction 1476877674760 PlanetExplorer.java
+CompilationAction 1476877677365 PlanetExplorer.java
+UnitTestCaseAction 1476877680991 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877680992 TestPlanetExplorer.java FAIL
+EditAction 1476877733537 PlanetExplorer.java 2183 3 7 0
