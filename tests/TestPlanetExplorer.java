@@ -52,4 +52,11 @@ public class TestPlanetExplorer {
 		String returnValue = explorer.executeCommand("b");
 		assertEquals("(0,0,N)(0,2)", returnValue);
 	}
+	
+	@Test
+	public void test_givenExample1() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		String returnValue = explorer.executeCommand("ffrf");
+		assertEquals("1,2,E", returnValue);
+	}
 }
