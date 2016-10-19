@@ -69,17 +69,17 @@ public class TestPlanetExplorer {
 	
 	@Test(expected=PlanetExplorerException.class)
 	public void test_createExplorer_invalidSize() throws PlanetExplorerException {
-		PlanetExplorer explorer = new PlanetExplorer(-1, 3, "");
+		new PlanetExplorer(-1, 3, "");
 	}
 	
 	@Test(expected=PlanetExplorerException.class)
 	public void test_createExplorer_invalidObstacleFormat() throws PlanetExplorerException {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(3,2");
+		new PlanetExplorer(3, 3, "(3,2");
 	}
 	
 	@Test(expected=PlanetExplorerException.class)
 	public void test_executeCommand_invalid() throws PlanetExplorerException {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
-		String returnValue = explorer.executeCommand("fF");
+		explorer.executeCommand("fF");
 	}
 }
