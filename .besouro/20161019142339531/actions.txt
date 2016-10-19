@@ -187,3 +187,9 @@ EditAction 1476877852022 TestPlanetExplorer.java 925 4 12 4
 UnitTestCaseAction 1476877855676 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877855677 TestPlanetExplorer.java FAIL
 EditAction 1476877879112 PlanetExplorer.java 2192 3 8 0
+UnitTestCaseAction 1476877882245 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877882246 TestPlanetExplorer.java OK
+RefactoringAction 1476877890603 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476877901118 TestPlanetExplorer.java RENAME test_=>void test_executeCommand_forwardTo FIELD
+RefactoringAction 1476877904629 TestPlanetExplorer.java RENAME test_executeCommand_forwardTo=>void test_executeCommand_forwardToObstacle() METHOD
+EditAction 1476877964576 TestPlanetExplorer.java 1060 5 13 4

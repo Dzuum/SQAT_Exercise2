@@ -35,4 +35,9 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,2,N)", ret);
 	}
+	
+	@Test
+	public void test_executeCommand_forwardToObstacle() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
+	}
 }
