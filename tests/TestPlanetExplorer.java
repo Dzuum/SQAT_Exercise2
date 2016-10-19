@@ -76,4 +76,10 @@ public class TestPlanetExplorer {
 	public void test_createExplorer_invalidObstacleFormat() throws PlanetExplorerException {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(3,2");
 	}
+	
+	@Test(expected=PlanetExplorerException.class)
+	public void test_executeCommand_invalid() throws PlanetExplorerException {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		String returnValue = explorer.executeCommand("fF");
+	}
 }

@@ -369,3 +369,6 @@ EditAction 1476880046027 PlanetExplorer.java 3829 3 15 0
 UnitTestCaseAction 1476880048214 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476880048215 TestPlanetExplorer.java OK
 EditAction 1476880153538 PlanetExplorer.java 3915 3 15 0
+RefactoringAction 1476880175172 TestPlanetExplorer.java ADD void test_executeCommand_invalid FIELD
+RefactoringAction 1476880178183 TestPlanetExplorer.java RENAME test_executeCommand_invalid=>void test_executeCommand_invalid() METHOD
+EditAction 1476880210623 TestPlanetExplorer.java 3049 12 31 9
