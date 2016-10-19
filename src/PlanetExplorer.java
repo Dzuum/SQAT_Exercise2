@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	int gridWidth;
 	int gridHeight;
 	
+	String facing;
 	int posX;
 	int posY;
 	
@@ -26,6 +27,7 @@ public class PlanetExplorer {
 		gridWidth = x;
 		gridHeight = y;
 		
+		facing = "N";
 		posX = 0;
 		posY = 0;
 	}
@@ -45,7 +47,8 @@ public class PlanetExplorer {
 		
 		for (String cmd : splitCommands) {
 			if (cmd.equals("f")) {
-				posY++;
+				if (facing.equals("N"))
+					posY++;
 			}
 		}
 		
@@ -53,6 +56,6 @@ public class PlanetExplorer {
 	}
 	
 	private String getPositionFormatted() {
-		return "(" + posX + "," + posY + ")";
+		return "(" + posX + "," + posY + "," + facing + ")";
 	}
 }
