@@ -55,7 +55,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public String executeCommand(String command) {
+	public String executeCommand(String command) throws PlanetExplorerException {
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -90,6 +90,8 @@ public class PlanetExplorer {
 				direction.rotateLeft();
 			} else if (cmd == 'r') {
 				direction.rotateRight();
+			} else {
+				throw new PlanetExplorerException();
 			}
 		}
 		
