@@ -55,7 +55,7 @@ public class PlanetExplorer {
 			if (cmd == 'f') {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.add(direction);
-				position.wrapPositive(gridWidth - 1, gridHeight - 1);
+				nextPosition.wrapPositive(gridWidth - 1, gridHeight - 1);
 				
 				if (!gridObstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
@@ -64,7 +64,7 @@ public class PlanetExplorer {
 			} else if (cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.negate(direction);
-				position.wrapPositive(gridWidth - 1, gridHeight - 1);
+				nextPosition.wrapPositive(gridWidth - 1, gridHeight - 1);
 				
 				if (!gridObstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
