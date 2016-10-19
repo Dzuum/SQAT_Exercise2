@@ -10,3 +10,7 @@
 1476879208673 test-addition 2 47 false
 1476879356731 refactoring 3 140 false
 1476880048215 test-first 3 671 true
+1476880212603 refactoring 3 59 false
+1476880218756 regression 1 0 true
+1476880227147 regression 1 0 true
+1476880279234 regression 1 45 true

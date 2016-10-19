@@ -173,3 +173,15 @@
 1476880048224 test-first 3 671 true
 1476880048225 test-first 3 671 true
 1476880048226 test-first 3 671 true
+1476880212603 refactoring 3 59 true
+1476880212604 refactoring 3 59 true
+1476880212605 refactoring 3 59 true
+1476880212606 refactoring 3 59 true
+1476880212607 refactoring 3 59 true
+1476880212608 refactoring 3 59 true
+1476880212609 refactoring 3 59 true
+1476880212610 refactoring 3 59 true
+1476880212611 refactoring 3 59 true
+1476880218756 regression 1 0 true
+1476880227147 regression 1 0 true
+1476880279234 regression 1 45 true
