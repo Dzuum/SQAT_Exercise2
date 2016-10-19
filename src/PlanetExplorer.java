@@ -47,7 +47,7 @@ public class PlanetExplorer {
 				} catch (NumberFormatException nfe) {
 					throw new PlanetExplorerException();
 				}
-			} else {
+			} else if (obstacles.length() != 0) {
 				throw new PlanetExplorerException();
 			}
 		}
