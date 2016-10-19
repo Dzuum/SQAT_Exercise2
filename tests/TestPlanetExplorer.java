@@ -4,6 +4,8 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 
+	PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
+	
 	@Test
 	public void test_executeCommand_forwardOnce() {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
@@ -38,7 +40,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_executeCommand_forwardToObstacle() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
+		
 		
 		String ret = explorer.executeCommand("f");
 		
