@@ -41,5 +41,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
 		
 		String ret = explorer.executeCommand("f");
+		
+		assertEquals("(0,0,N)(0,1)", ret);
 	}
 }
