@@ -3,7 +3,7 @@ import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 112
-// Finish time:
+// Finish time: 15:32
 
 public class PlanetExplorer {
 	int gridWidth;
