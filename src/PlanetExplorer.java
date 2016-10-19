@@ -49,7 +49,7 @@ public class PlanetExplorer {
 				nextPosition = new ExplorerVector2D(position);
 				nextPosition.add(direction);
 				
-				if (!obstacles.contains("(" + ")"))
+				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
 			} else if (cmd == 'b') {
 				nextPosition = new ExplorerVector2D(position);
