@@ -86,4 +86,8 @@ public class ExplorerVector2D {
 	public String getValuesString() {
 		return x + "," + y;
 	}
+	
+	public bool equals(ExplorerVector2D other) {
+		
+	}
 }
