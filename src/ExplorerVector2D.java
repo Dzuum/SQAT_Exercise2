@@ -9,6 +9,7 @@ public class ExplorerVector2D {
 	}
 	
 	public void add(ExplorerVector2D other) {
-		
+		this.x += other.x;
+		this.y += other.y;
 	}
 }
