@@ -47,9 +47,13 @@ public class PlanetExplorer {
 		
 		for (String cmd : splitCommands) {
 			if (cmd.equals("f")) {
-				if (facing.equals("N"))
+				if (facing.equalsIgnoreCase("f"))
 					posY++;
-			} else if (cmd.equalsIgnoreCase("r")) {
+			} else if (cmd.equalsIgnoreCase("b")) {
+				
+			} else if (cmd.equalsIgnoreCase("l")) {
+				
+			} else if (cmd.equalsIgnoreCase("f")) {
 				
 			}
 		}
