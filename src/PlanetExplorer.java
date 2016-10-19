@@ -48,7 +48,7 @@ public class PlanetExplorer {
 					throw new PlanetExplorerException();
 				}
 			} else {
-				throw new PlanetExplorerException(;)
+				throw new PlanetExplorerException();
 			}
 		}
 		
