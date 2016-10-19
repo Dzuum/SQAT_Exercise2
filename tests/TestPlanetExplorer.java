@@ -9,6 +9,8 @@ public class TestPlanetExplorer {
 		fail("Not yet implemented");
 		
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
-		explorer.executeCommand("f");
+		String ret = explorer.executeCommand("f");
+		
+		assertEquals("(0,1,N)", ret);
 	}
 }
