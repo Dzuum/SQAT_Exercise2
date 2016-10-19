@@ -64,13 +64,15 @@ public class PlanetExplorer {
 				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
 				else
-					foundObstacles.add(nextPosition));
+					foundObstacles.add(nextPosition);
 			} else if (cmd == 'l') {
 				direction.rotateLeft();
 			} else if (cmd == 'r') {
 				direction.rotateRight();
 			}
 		}
+		
+		String returnValue = getPositionFormatted();
 		
 		return getPositionFormatted();
 	}
