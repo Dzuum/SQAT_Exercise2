@@ -9,5 +9,6 @@ public class TestPlanetExplorer {
 		fail("Not yet implemented");
 		
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		explorer.executeCommand("f");
 	}
 }
