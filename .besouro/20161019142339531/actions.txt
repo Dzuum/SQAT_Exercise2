@@ -63,3 +63,11 @@ EditAction 1476877148968 ExplorerVector2D.java 190 2 2 0
 EditAction 1476877160107 ExplorerVector2D.java 230 2 4 0
 RefactoringAction 1476877171925 ExplorerVector2D.java ADD String get FIELD
 EditAction 1476877176306 ExplorerVector2D.java 277 3 4 0
+CompilationAction 1476877176541 ExplorerVector2D.java
+RefactoringAction 1476877200984 ExplorerVector2D.java ADD int get FIELD
+RefactoringAction 1476877203492 ExplorerVector2D.java RENAME get=>int X() METHOD
+CompilationAction 1476877205808 ExplorerVector2D.java
+CompilationAction 1476877205973 ExplorerVector2D.java
+CompilationAction 1476877210915 ExplorerVector2D.java
+CompilationAction 1476877211071 ExplorerVector2D.java
+EditAction 1476877225754 ExplorerVector2D.java 407 5 8 0
