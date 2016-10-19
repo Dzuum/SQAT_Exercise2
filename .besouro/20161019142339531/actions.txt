@@ -15,3 +15,16 @@ RefactoringAction 1476876660983 PlanetExplorer.java ADD int gridWidth FIELD
 RefactoringAction 1476876660984 PlanetExplorer.java ADD int gridHeight FIELD
 EditAction 1476876673828 PlanetExplorer.java 1401 2 3 0
 EditAction 1476876688251 PlanetExplorer.java 1453 2 3 0
+CompilationAction 1476876688416 PlanetExplorer.java
+CompilationAction 1476876688417 PlanetExplorer.java
+RefactoringAction 1476876700433 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1476876703677 PlanetExplorer.java
+CompilationAction 1476876703678 PlanetExplorer.java
+CompilationAction 1476876703836 PlanetExplorer.java
+RefactoringAction 1476876708154 PlanetExplorer.java ADD import java.util.List IMPORT
+RefactoringAction 1476876719756 PlanetExplorer.java RENAME obstacles=>Vector2 List FIELD
+RefactoringAction 1476876721286 PlanetExplorer.java RENAME List=>List<String> obstacles FIELD
+RefactoringAction 1476876725308 PlanetExplorer.java ADD int posX FIELD
+RefactoringAction 1476876725309 PlanetExplorer.java ADD int posY FIELD
+CompilationAction 1476876730306 PlanetExplorer.java
+EditAction 1476876752683 PlanetExplorer.java 1604 2 6 0
