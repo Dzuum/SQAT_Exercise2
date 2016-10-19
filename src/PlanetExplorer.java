@@ -32,10 +32,14 @@ public class PlanetExplorer {
 		position = new ExplorerVector2D(0, 0);
 		direction = new ExplorerVector2D(0, 1);
 		
-		String[] splitObstacles = obstacles.split("\\),\\(|\\)|\\(");
-		for (String obstacle : splitObstacles) {
+		//String[] splitObstacles = obstacles.split("\\),\\(|\\)|\\(");
+		String[] splitObstacles = obstacles.split("(?<=[(),])|(?=[(),])");
+		for (int i = 0; i < splitObstacles; i += 1) {
+			
 			gridObstacles.add("(" + obstacle + ")");
 		}
+		
+		
 	}
 	
 	public String executeCommand(String command) {
