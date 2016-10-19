@@ -41,6 +41,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		ExplorerVector2D nextPosition;
 		for (int i = 0; i < command.length(); i++) {
 			char cmd = command.charAt(i);
 			
