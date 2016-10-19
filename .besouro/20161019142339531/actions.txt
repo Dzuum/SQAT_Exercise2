@@ -169,3 +169,8 @@ CompilationAction 1476877774817 PlanetExplorer.java
 UnitTestCaseAction 1476877777383 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877777384 TestPlanetExplorer.java FAIL
 EditAction 1476877806366 PlanetExplorer.java 2131 3 7 0
+UnitTestCaseAction 1476877808841 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877808842 TestPlanetExplorer.java OK
+RefactoringAction 1476877813931 TestPlanetExplorer.java ADD void test_executeCommand_turnRight()/2 METHOD
+RefactoringAction 1476877817445 TestPlanetExplorer.java RENAME test_executeCommand_turnRight()/2=>void test_executeCommand_turnLeft() METHOD
+EditAction 1476877818516 TestPlanetExplorer.java 716 3 9 3

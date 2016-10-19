@@ -19,4 +19,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,E)", ret);
 	}
+	
+	@Test
+	public void test_executeCommand_turnLeft() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		String ret = explorer.executeCommand("l");
+		
+		assertEquals("(0,0,W)", ret);
+	}
 }
