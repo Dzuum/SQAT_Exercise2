@@ -46,6 +46,7 @@ public class PlanetExplorer {
 			char cmd = command.charAt(i);
 			
 			if (cmd == 'f') {
+				nextPosition = position;
 				position.add(direction);
 			} else if (cmd == 'b') {
 				position.negate(direction);
