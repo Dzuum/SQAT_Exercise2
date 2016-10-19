@@ -9,41 +9,31 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_executeCommand_forwardOnce() {
-		String ret = explorer.executeCommand("f");
-		
-		assertEquals("(0,1,N)", ret);
+		returnValue = explorer.executeCommand("f");
+		assertEquals("(0,1,N)", returnValue);
 	}
 	
 	@Test
 	public void test_executeCommand_turnRight() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
-		String ret = explorer.executeCommand("r");
-		
-		assertEquals("(0,0,E)", ret);
+		returnValue = explorer.executeCommand("r");
+		assertEquals("(0,0,E)", returnValue);
 	}
 	
 	@Test
 	public void test_executeCommand_turnLeft() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
-		String ret = explorer.executeCommand("l");
-		
-		assertEquals("(0,0,W)", ret);
+		returnValue = explorer.executeCommand("l");
+		assertEquals("(0,0,W)", returnValue);
 	}
 	
 	@Test
 	public void test_executeCommand_backwardsWrap() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
-		String ret = explorer.executeCommand("b");
-		
-		assertEquals("(0,2,N)", ret);
+		returnValue = explorer.executeCommand("b");
+		assertEquals("(0,2,N)", returnValue);
 	}
 	
 	@Test
 	public void test_executeCommand_forwardToObstacle() {
-		
-		
-		String ret = explorer.executeCommand("f");
-		
-		assertEquals("(0,0,N)(0,1)", ret);
+		returnValue = explorer.executeCommand("f");
+		assertEquals("(0,0,N)(0,1)", returnValue);
 	}
 }
