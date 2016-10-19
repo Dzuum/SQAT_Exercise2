@@ -94,3 +94,8 @@ CompilationAction 1476877345297 PlanetExplorer.java
 CompilationAction 1476877345298 PlanetExplorer.java
 RefactoringAction 1476877368352 ExplorerVector2D.java ADD void rotateLeft FIELD
 EditAction 1476877391982 ExplorerVector2D.java 639 6 9 0
+CompilationAction 1476877392195 PlanetExplorer.java
+CompilationAction 1476877392196 PlanetExplorer.java
+CompilationAction 1476877392197 PlanetExplorer.java
+CompilationAction 1476877392197 PlanetExplorer.java
+EditAction 1476877430473 ExplorerVector2D.java 846 6 10 0
