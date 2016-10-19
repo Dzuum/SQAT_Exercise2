@@ -46,11 +46,13 @@ public class PlanetExplorer {
 			char cmd = command.charAt(i);
 			
 			if (cmd == 'f') {
-				nextPosition = position;
+				nextPosition = new ExplorerVector2D(position);
 				nextPosition.add(direction);
 				
+				
 			} else if (cmd == 'b') {
-				position.negate(direction);
+				nextPosition = new ExplorerVector2D(position);
+				nextPosition.negate(direction);
 			} else if (cmd == 'l') {
 				direction.rotateLeft();
 			} else if (cmd == 'r') {
