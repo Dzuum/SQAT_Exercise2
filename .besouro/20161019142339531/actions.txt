@@ -268,3 +268,12 @@ EditAction 1476878936434 ExplorerVector2D.java 1608 10 16 0
 CompilationAction 1476878936642 ExplorerVector2D.java
 CompilationAction 1476878942908 ExplorerVector2D.java
 EditAction 1476878946976 ExplorerVector2D.java 1621 10 17 0
+CompilationAction 1476878947190 ExplorerVector2D.java
+CompilationAction 1476878952045 ExplorerVector2D.java
+CompilationAction 1476878952208 ExplorerVector2D.java
+CompilationAction 1476878959355 ExplorerVector2D.java
+UnitTestCaseAction 1476878962266 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878962267 TestPlanetExplorer.java OK
+RefactoringAction 1476878980000 TestPlanetExplorer.java ADD void test_executeCommand_wrap FIELD
+RefactoringAction 1476878986013 TestPlanetExplorer.java RENAME test_executeCommand_wrap=>void test_executeCommand_wrapBackwardsToObstacle() METHOD
+EditAction 1476878993547 TestPlanetExplorer.java 1691 7 21 7

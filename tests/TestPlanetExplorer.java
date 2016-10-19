@@ -45,4 +45,11 @@ public class TestPlanetExplorer {
 		String returnValue = explorer.executeCommand("ff");
 		assertEquals("(0,0,N)(0,1)", returnValue);
 	}
+	
+	@Test
+	public void test_executeCommand_wrapBackwardsToObstacle() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,2)");
+		String returnValue = explorer.executeCommand("b");
+		assertEquals("(0,0,N)(0,1)", returnValue);
+	}
 }
