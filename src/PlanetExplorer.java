@@ -42,15 +42,15 @@ public class PlanetExplorer {
 		 */
 		
 		for (int i = 0; i < command.length(); i++) {
-			String cmd = command.charAt(i);
+			char cmd = command.charAt(i);
 			
-			if (cmd.equals("f")) {
+			if (cmd == 'f') {
 				position.add(direction);
-			} else if (cmd.equalsIgnoreCase("b")) {
+			} else if (cmd == 'b') {
 				position.negate(direction);
-			} else if (cmd.equalsIgnoreCase("l")) {
+			} else if (cmd == 'l') {
 				direction.rotateLeft();
-			} else if (cmd.equalsIgnoreCase("f")) {
+			} else if (cmd == 'r') {
 				direction.rotateRight();
 			}
 		}

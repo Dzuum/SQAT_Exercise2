@@ -147,3 +147,25 @@ CompilationAction 1476877677365 PlanetExplorer.java
 UnitTestCaseAction 1476877680991 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877680992 TestPlanetExplorer.java FAIL
 EditAction 1476877733537 PlanetExplorer.java 2183 3 7 0
+CompilationAction 1476877733786 PlanetExplorer.java
+RefactoringAction 1476877743508 PlanetExplorer.java ADD String getPositionFormatted()/2 METHOD
+RefactoringAction 1476877746029 PlanetExplorer.java REMOVE getPositionFormatted()/2 METHOD
+CompilationAction 1476877747631 PlanetExplorer.java
+CompilationAction 1476877747777 PlanetExplorer.java
+CompilationAction 1476877747778 PlanetExplorer.java
+CompilationAction 1476877747778 PlanetExplorer.java
+CompilationAction 1476877747779 PlanetExplorer.java
+CompilationAction 1476877747779 PlanetExplorer.java
+CompilationAction 1476877747780 PlanetExplorer.java
+RefactoringAction 1476877751551 PlanetExplorer.java REMOVE getPositionFormatted()/2 METHOD
+RefactoringAction 1476877753564 PlanetExplorer.java ADD String getPositionFormatted()/2 METHOD
+RefactoringAction 1476877756078 PlanetExplorer.java REMOVE getPositionFormatted()/2 METHOD
+RefactoringAction 1476877757111 PlanetExplorer.java ADD String getPositionFormatted()/2 METHOD
+CompilationAction 1476877757923 PlanetExplorer.java
+CompilationAction 1476877758080 PlanetExplorer.java
+CompilationAction 1476877758080 PlanetExplorer.java
+CompilationAction 1476877774816 PlanetExplorer.java
+CompilationAction 1476877774817 PlanetExplorer.java
+UnitTestCaseAction 1476877777383 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877777384 TestPlanetExplorer.java FAIL
+EditAction 1476877806366 PlanetExplorer.java 2131 3 7 0
