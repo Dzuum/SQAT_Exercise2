@@ -42,3 +42,4 @@ RefactoringAction 1476876902238 TestPlanetExplorer.java RENAME test_execute=>voi
 RefactoringAction 1476876905248 TestPlanetExplorer.java RENAME test_executeCommand_=>void test_executeCommand_turn FIELD
 RefactoringAction 1476876914269 TestPlanetExplorer.java RENAME test_executeCommand_turn=>void test_executeCommand_turnRight() METHOD
 EditAction 1476876914371 TestPlanetExplorer.java 374 2 3 1
+EditAction 1476876941696 TestPlanetExplorer.java 511 2 6 2

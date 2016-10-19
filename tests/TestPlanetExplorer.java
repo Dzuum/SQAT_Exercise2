@@ -14,6 +14,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_executeCommand_turnRight() {
+		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
+		String ret = explorer.executeCommand("r");
 		
+		assertEquals("(0,0,E", ret);
 	}
 }
