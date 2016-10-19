@@ -12,7 +12,7 @@ public class PlanetExplorer {
 	ExplorerVector2D position;
 	ExplorerVector2D direction;
 	
-	List<String> obstacles = new ArrayList<String>();
+	List<String> gridObstacles = new ArrayList<String>();
 	
 	public PlanetExplorer(int x, int y, String obstacles) {
 		/*	x and y represent the size of the grid.
@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		
 		String[] splitObstacles = obstacles.split("\\),\\(|\\)|\\(");
 		for (String obstacle : splitObstacles) {
-			
+			gridObstacles.add("(" + obstacle + ")");
 		}
 	}
 	
@@ -57,7 +57,7 @@ public class PlanetExplorer {
 				nextPosition.add(direction);
 				position.wrapPositive(gridWidth - 1, gridHeight - 1);
 				
-				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
+				if (!gridObstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
 				else
 					foundObstacles.add(nextPosition);
@@ -66,7 +66,7 @@ public class PlanetExplorer {
 				nextPosition.negate(direction);
 				position.wrapPositive(gridWidth - 1, gridHeight - 1);
 				
-				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
+				if (!gridObstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
 				else
 					foundObstacles.add(nextPosition);

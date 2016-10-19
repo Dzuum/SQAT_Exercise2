@@ -232,3 +232,11 @@ EditAction 1476878449183 PlanetExplorer.java 2895 3 10 0
 EditAction 1476878482073 PlanetExplorer.java 2977 3 11 0
 EditAction 1476878573839 PlanetExplorer.java 3046 3 12 0
 EditAction 1476878583791 PlanetExplorer.java 3100 3 13 0
+RefactoringAction 1476878613735 PlanetExplorer.java RENAME obstacles=>List<String> gridObstacles FIELD
+CompilationAction 1476878629769 PlanetExplorer.java
+CompilationAction 1476878646301 PlanetExplorer.java
+UnitTestCaseAction 1476878663413 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878663414 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878695118 TestPlanetExplorer.java REMOVE returnValue FIELD
+RefactoringAction 1476878695118 TestPlanetExplorer.java REMOVE explorer FIELD
+EditAction 1476878718409 TestPlanetExplorer.java 1209 5 15 5
