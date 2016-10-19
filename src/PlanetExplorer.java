@@ -49,6 +49,8 @@ public class PlanetExplorer {
 			if (cmd.equals("f")) {
 				if (facing.equals("N"))
 					posY++;
+			} else if (cmd.equalsIgnoreCase("r")) {
+				
 			}
 		}
 		
