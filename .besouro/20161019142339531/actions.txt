@@ -207,3 +207,9 @@ EditAction 1476878080454 PlanetExplorer.java 2192 3 8 0
 EditAction 1476878109545 PlanetExplorer.java 2226 3 9 0
 EditAction 1476878134632 PlanetExplorer.java 2256 3 9 0
 EditAction 1476878144220 PlanetExplorer.java 2260 3 9 0
+UnitTestCaseAction 1476878151614 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878151615 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878205752 ExplorerVector2D.java ADD void copyValues(ExplorerVector2D) METHOD
+RefactoringAction 1476878214773 ExplorerVector2D.java REMOVE copyValues(ExplorerVector2D) METHOD
+RefactoringAction 1476878230796 ExplorerVector2D.java ADD ExplorerVector2D(ExplorerVector2D) METHOD
+EditAction 1476878230986 ExplorerVector2D.java 1506 9 16 0

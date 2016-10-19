@@ -48,6 +48,7 @@ public class PlanetExplorer {
 			if (cmd == 'f') {
 				nextPosition = position;
 				nextPosition.add(direction);
+				
 			} else if (cmd == 'b') {
 				position.negate(direction);
 			} else if (cmd == 'l') {

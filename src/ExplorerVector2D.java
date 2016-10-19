@@ -8,6 +8,11 @@ public class ExplorerVector2D {
 		this.y = y;
 	}
 	
+	public ExplorerVector2D(ExplorerVector2D other) {
+		this.x = other.x;
+		this.y = other.y;
+	}
+	
 	public void add(ExplorerVector2D other) {
 		this.x += other.x;
 		this.y += other.y;
