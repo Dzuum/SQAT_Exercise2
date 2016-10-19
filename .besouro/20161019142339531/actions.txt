@@ -248,3 +248,4 @@ UnitTestSessionAction 1476878786855 TestPlanetExplorer.java OK
 RefactoringAction 1476878793782 TestPlanetExplorer.java ADD void test_executeCommand_forwardToObstacle()/2 METHOD
 RefactoringAction 1476878797291 TestPlanetExplorer.java RENAME test_executeCommand_forwardToObstacle()/2=>void test_executeCommand_f() METHOD
 EditAction 1476878801411 TestPlanetExplorer.java 1449 6 18 6
+EditAction 1476878803092 TestPlanetExplorer.java 1450 6 18 6

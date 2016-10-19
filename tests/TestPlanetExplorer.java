@@ -42,7 +42,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_executeCommand_twiceForwardToObstacle() {
 		PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
-		String returnValue = explorer.executeCommand("f");
+		String returnValue = explorer.executeCommand("ff");
 		assertEquals("(0,0,N)(0,1)", returnValue);
 	}
 }
