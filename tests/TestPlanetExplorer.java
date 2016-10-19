@@ -5,10 +5,10 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	PlanetExplorer explorer = new PlanetExplorer(3, 3, "(0,1)");
+	String returnValue;
 	
 	@Test
 	public void test_executeCommand_forwardOnce() {
-		PlanetExplorer explorer = new PlanetExplorer(3, 3, "");
 		String ret = explorer.executeCommand("f");
 		
 		assertEquals("(0,1,N)", ret);

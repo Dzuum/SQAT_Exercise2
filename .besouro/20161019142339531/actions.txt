@@ -198,3 +198,5 @@ EditAction 1476878005193 TestPlanetExplorer.java 1152 5 15 5
 UnitTestCaseAction 1476878010850 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878010851 TestPlanetExplorer.java FAIL
 EditAction 1476878023936 TestPlanetExplorer.java 1158 5 14 5
+RefactoringAction 1476878031845 TestPlanetExplorer.java ADD String returnValue FIELD
+EditAction 1476878034518 TestPlanetExplorer.java 1121 5 13 5
