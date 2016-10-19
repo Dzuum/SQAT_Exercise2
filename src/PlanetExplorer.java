@@ -9,9 +9,8 @@ public class PlanetExplorer {
 	int gridWidth;
 	int gridHeight;
 	
-	String facing;
-	int posX;
-	int posY;
+	ExplorerVector2D facing;
+	ExplorerVector2D position;
 	
 	List<String> obstacles = new ArrayList<String>();
 	
