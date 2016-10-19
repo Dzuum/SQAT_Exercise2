@@ -8,9 +8,9 @@ import java.util.List;
 public class PlanetExplorer {
 	int gridWidth;
 	int gridHeight;
-	
-	ExplorerVector2D facing;
+
 	ExplorerVector2D position;
+	ExplorerVector2D direction;
 	
 	List<String> obstacles = new ArrayList<String>();
 	
@@ -25,9 +25,9 @@ public class PlanetExplorer {
 		
 		gridWidth = x;
 		gridHeight = y;
-		
-		facing = new ExplorerVector2D(0, 1);
-		position = new ExplorerVecto2D(0, 0);
+
+		position = new ExplorerVector2D(0, 0);
+		direction = new ExplorerVector2D(0, 1);
 	}
 	
 	public String executeCommand(String command) {
@@ -45,14 +45,13 @@ public class PlanetExplorer {
 		
 		for (String cmd : splitCommands) {
 			if (cmd.equals("f")) {
-				if (facing.equalsIgnoreCase("f"))
-					posY++;
+				position.add(direction);
 			} else if (cmd.equalsIgnoreCase("b")) {
-				
+				position.negate(direction);
 			} else if (cmd.equalsIgnoreCase("l")) {
-				
+				direction.rotateLeft();
 			} else if (cmd.equalsIgnoreCase("f")) {
-				
+				direction.rotateRight();
 			}
 		}
 		

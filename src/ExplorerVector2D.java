@@ -16,6 +16,16 @@ public class ExplorerVector2D {
 		this.y += other.y;
 	}
 	
+	public void negate(ExplorerVector2D other) {
+		this.x -= other.x;
+		this.y -= other.y;
+	}
+	
+	public void clampPositive(int xMax, int yMax) {
+		if (x < 0)
+			x = xMax;
+	}
+	
 	public void rotateLeft() {
 		if (x == 1 && y == 0) {
 			x = 0;

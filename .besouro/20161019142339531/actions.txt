@@ -107,3 +107,19 @@ CompilationAction 1476877450048 PlanetExplorer.java
 CompilationAction 1476877450049 PlanetExplorer.java
 CompilationAction 1476877450049 PlanetExplorer.java
 EditAction 1476877462812 ExplorerVector2D.java 1124 7 11 0
+CompilationAction 1476877493523 PlanetExplorer.java
+CompilationAction 1476877493524 PlanetExplorer.java
+CompilationAction 1476877493683 PlanetExplorer.java
+CompilationAction 1476877493684 PlanetExplorer.java
+RefactoringAction 1476877514713 PlanetExplorer.java RENAME facing=>ExplorerVector2D direction FIELD
+CompilationAction 1476877530915 PlanetExplorer.java
+CompilationAction 1476877530916 PlanetExplorer.java
+CompilationAction 1476877531089 PlanetExplorer.java
+CompilationAction 1476877531090 PlanetExplorer.java
+CompilationAction 1476877531090 PlanetExplorer.java
+CompilationAction 1476877531091 PlanetExplorer.java
+RefactoringAction 1476877541692 ExplorerVector2D.java ADD void negate(ExplorerVector2D) METHOD
+RefactoringAction 1476877561238 ExplorerVector2D.java ADD void clamp(int, int, int, int) METHOD
+RefactoringAction 1476877564251 ExplorerVector2D.java RENAME clamp(int, int, int, int)=>void clamp(int) METHOD
+RefactoringAction 1476877572285 ExplorerVector2D.java RENAME clamp(int)=>void clampPositive(int, int) METHOD
+EditAction 1476877578432 ExplorerVector2D.java 1307 9 14 0
