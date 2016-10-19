@@ -63,6 +63,8 @@ public class PlanetExplorer {
 				
 				if (!obstacles.contains("(" + nextPosition.getValuesString() + ")"))
 					position = new ExplorerVector2D(nextPosition);
+				else
+					foundObstacles.add(nextPosition));
 			} else if (cmd == 'l') {
 				direction.rotateLeft();
 			} else if (cmd == 'r') {
