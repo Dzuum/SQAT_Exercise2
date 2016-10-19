@@ -34,8 +34,14 @@ public class PlanetExplorer {
 		
 		//String[] splitObstacles = obstacles.split("\\),\\(|\\)|\\(");
 		String[] splitObstacles = obstacles.split("(?<=[(),])|(?=[(),])");
-		for (int i = 0; i < splitObstacles; i += 1) {
+		for (int i = 0; i < splitObstacles.length; i += 1) {
 			
+			if (splitObstacles.length > i + 4 &&
+				splitObstacles[i].equals("(") &&
+				splitObstacles[i + 2].equals(",") &&
+				splitObstacles[i + 4].equals(")")) {
+				
+			}
 			gridObstacles.add("(" + obstacle + ")");
 		}
 		
