@@ -21,9 +21,16 @@ public class ExplorerVector2D {
 		this.y -= other.y;
 	}
 	
-	public void clampPositive(int xMax, int yMax) {
+	public void wrapPositive(int xMax, int yMax) {
 		if (x < 0)
 			x = xMax;
+		else if (x > xMax)
+			x = 0;
+		
+		if (y < 0)
+			y = yMax;
+		else if (y > yMax)
+			y = 0;
 	}
 	
 	public void rotateLeft() {

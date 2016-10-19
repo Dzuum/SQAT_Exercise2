@@ -123,3 +123,8 @@ RefactoringAction 1476877561238 ExplorerVector2D.java ADD void clamp(int, int, i
 RefactoringAction 1476877564251 ExplorerVector2D.java RENAME clamp(int, int, int, int)=>void clamp(int) METHOD
 RefactoringAction 1476877572285 ExplorerVector2D.java RENAME clamp(int)=>void clampPositive(int, int) METHOD
 EditAction 1476877578432 ExplorerVector2D.java 1307 9 14 0
+CompilationAction 1476877578685 PlanetExplorer.java
+CompilationAction 1476877578685 PlanetExplorer.java
+CompilationAction 1476877578686 PlanetExplorer.java
+RefactoringAction 1476877591861 ExplorerVector2D.java RENAME clampPositive(int, int)=>void wrapPositive(int, int) METHOD
+EditAction 1476877610067 ExplorerVector2D.java 1404 9 15 0
