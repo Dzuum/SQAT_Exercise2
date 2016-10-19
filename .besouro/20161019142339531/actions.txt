@@ -300,3 +300,10 @@ EditAction 1476879196604 TestPlanetExplorer.java 2114 9 27 9
 UnitTestCaseAction 1476879200113 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476879200114 TestPlanetExplorer.java FAIL
 EditAction 1476879206709 TestPlanetExplorer.java 2119 9 27 9
+UnitTestCaseAction 1476879208672 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879208673 TestPlanetExplorer.java OK
+RefactoringAction 1476879215919 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476879218427 TestPlanetExplorer.java RENAME test_=>void test_create FIELD
+RefactoringAction 1476879221437 TestPlanetExplorer.java RENAME test_create=>void test_createExplorer_invalid FIELD
+RefactoringAction 1476879226948 TestPlanetExplorer.java RENAME test_createExplorer_invalid=>void test_createExplorer_invalidSize() METHOD
+EditAction 1476879240566 TestPlanetExplorer.java 2244 10 28 9
